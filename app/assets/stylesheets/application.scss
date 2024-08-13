@@ -10,3 +10,13 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.nav-link {
+  text-decoration: none !important;
+}
+
+nav.navbar {
+  position: fixed;
+  top:"";
+  width: 100%;
+}
