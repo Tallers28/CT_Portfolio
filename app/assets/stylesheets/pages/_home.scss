@@ -6,7 +6,7 @@
 .banner-home {
   padding-top: 80px;
   background-color: rgb(250, 250, 250);
-  height: 900px;
+  height: auto;
 }
 
 .banner-title {
@@ -42,6 +42,7 @@
 
 .about-home {
   padding-top: 200px;
+  height: auto;
 }
 
 .about-image {
@@ -70,7 +71,6 @@
   #about-home-2 {
     font-size: 16px;
     font-weight: 200;
-
   }
 }
 
@@ -91,8 +91,6 @@
   flex-wrap: wrap;
   padding: 20px 50px;
   justify-content: center;
-
-
 }
 
 #icon-list {
@@ -113,7 +111,7 @@
 }
 
 .projects-title {
-  height: 1200px;
+  height: auto;
 }
 
 #projects-title {
@@ -145,7 +143,7 @@
   background-size: cover;
   display: flex;
   align-content: center;
-  width: 1200px;
+  width: 1100px;
   height: 600px;
   border-radius: 10px;
   margin: 10px 140px 10px 140px;
@@ -158,7 +156,7 @@
   background-size: cover;
   display: flex;
   align-content: center;
-  width: 1200px;
+  width: 1100px;
   height: 600px;
   border-radius: 10px;
   margin: 10px 140px 10px 140px;
@@ -178,13 +176,13 @@
   p {
     font-size: 20px;
     font-weight: 200;
-
   }
 }
 
 .contacts-home {
   margin-top: 150px;
   padding-bottom: 100px;
+  height: auto;
 }
 
 #contacts-title {
@@ -198,9 +196,6 @@
   display: grid;
   align-items: center;
   margin: 40px;
-
-
-
 }
 
 .contacts-info-address {
@@ -211,5 +206,59 @@
   font-size: 25px;
   font-weight: 100;
   padding: 5px;
+}
 
+@media(max-width: 900px) {
+  .container-home {
+    width: auto;
+  }
+
+  .banner-image {
+    max-width: 500px;
+    max-height: 400px;
+    margin-left: 90px;
+  }
+
+  .about-image {
+    margin-bottom: 15px;
+    max-width: 500px;
+    max-height: 400px;
+  }
+
+  .project-image-1 {
+    max-width: 600px;
+    max-height: 300px;
+  }
+
+  .project-image-2 {
+    max-width: 600px;
+    max-height: 300px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container-home {
+    width: auto;
+  }
+
+  .banner-image {
+    max-width: 300px;
+    max-height: 250px;
+    margin-left: 50px;
+  }
+
+  .about-image {
+    max-width: 300px;
+    max-height: 250px;
+  }
+
+  .project-image-1 {
+    max-width: 300px;
+    max-height: 150px;
+  }
+
+  .project-image-2 {
+    max-width: 300px;
+    max-height: 150px;
+  }
 }
