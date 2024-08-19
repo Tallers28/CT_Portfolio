@@ -179,6 +179,16 @@
   }
 }
 
+#project-link {
+  color: grey;
+  text-decoration: none;
+}
+
+#project-link:hover {
+  color: rgb(150, 1, 150);
+  font-weight: 400;
+}
+
 .contacts-home {
   margin-top: 150px;
   padding-bottom: 100px;
